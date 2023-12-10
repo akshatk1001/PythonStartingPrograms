@@ -24,7 +24,7 @@ bullets_fired = 0
 class Balloon(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        # The radius of the balloon will be a random num between 5 and 20
+        # The radius of the balloon will be a random number between 5 and 20
         self.radius = random.randint(5, 20)
         # The balloon will be the shape of a circle
         self.surf = pygame.Surface((2 * self.radius, 2 * self.radius))
