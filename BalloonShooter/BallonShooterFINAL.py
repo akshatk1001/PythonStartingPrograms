@@ -55,7 +55,7 @@ class Gun(pygame.sprite.Sprite):
         super().__init__()
         # The gun starts at the coordinates (75,75), which is the center of the screen
         self.surf = pygame.Surface((75, 75))
-        # The image of the gun (stored locally) is converted to fit onto the screen
+        # The image of the gun (stored locally) is converted to fit the screen
         self.surf = pygame.image.load("gun-small.png").convert()
         self.x = 400
         self.y = 550
