@@ -1,2 +1,2 @@
 # PythonStartingPrograms
-A couple python programs I started off with
+A couple python games/programs I started off with
